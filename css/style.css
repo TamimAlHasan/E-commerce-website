@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+*{
+    margin: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-link{
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 15px;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active{
+    outline: none;
+    box-shadow: none;
+}
+
+.carousel{
+    background-color: #c7e9f3;
+    border-radius: 20px;
+}
+
+.carousel-item{
+    padding: 50px 65px;
+}
+
+.carousel-item h1,h2{
+   font-size: 40px;
+   font-weight: 500;
+}
+
+.carousel-item h2{
+    color: #2F80ED;
+}
+
+.carousel-item p{
+    font-size: 18px;
+    font-weight: 300;
+    color: #636262;
+    margin-top: 15px;
+}
+
+.btn{
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+.btn-primary{
+    background-image: linear-gradient(#56CCF2,#2F80ED);
+}
+
+.btn-secondary{
+    background-color: black;
+    margin-top: 10px;
+}
+
+.carousel-indicators [data-bs-target]{
+    background-color:#c2c1c1;
+    width: 16px;
+    height: 12px;
+    border: none;
+    border-radius: 6px;
+}
+
+.carousel-indicators .active{
+    background-color:#53C7F1;
+    width: 45px;
+}
+
+.title{
+    margin-bottom: 30px;
+}
+
+.title h2{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.title p{
+    font-size: 22px;
+    font-weight: 500;
+    color:#2F80ED ;
+}
+
+.category h1{
+    font-size: 40px;
+    font-weight: 500;
+    color: white;
+}
+
+.cat-1, .cat-2, .cat-3{
+    padding: 20px 45px;
+    border: none;
+    border-radius: 15px;
+}
+
+.cat-1{
+    background-image: linear-gradient(to bottom right, #7F7FD5, #86A8E7, #91EAE4);
+}
+
+.cat-2{
+    background-image: linear-gradient(#4E54C8, #8F94FB);
+}
+
+.cat-3{
+    background-image: linear-gradient(to right, #36D1DC, #5B86E5);
+}
+
+.card{
+    padding: 15px 20px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.10);
+}
+
+.card:hover{
+    box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.20);
+    cursor:pointer;
+}
+
+.card h3{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.card p{
+    font-weight: 300;
+    color: #707070;
+}
+
+.contact{
+    background-color: #c7e9f3;
+    border: none;
+    border-radius: 20px;
+    padding: 50px 65px;
+}
+
+.contact h3{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.contact p{
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.form-control{
+    width: 400px;
+    height: 60px;
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
